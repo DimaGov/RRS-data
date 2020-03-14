@@ -220,6 +220,28 @@
 		<Loop>0</Loop>
 		<PlayOnStart>0</PlayOnStart>
 	</Sound>
+	
+	<!-- Звук наполнения крана 254 -->
+	<Sound>
+		<Name>254_vpusk</Name>
+		<Path>254_vpusk.wav</Path>
+		<InitVolume>0</InitVolume>
+		<MaxVolume>100</MaxVolume>
+		<InitPitch>1.0</InitPitch>
+		<Loop>1</Loop>
+		<PlayOnStart>1</PlayOnStart>
+	</Sound>
+	
+	<!-- Звук отпуска крана 254 -->
+	<Sound>
+		<Name>254_vypusk</Name>
+		<Path>254_vypusk.wav</Path>
+		<InitVolume>0</InitVolume>
+		<MaxVolume>100</MaxVolume>
+		<InitPitch>1.0</InitPitch>
+		<Loop>1</Loop>
+		<PlayOnStart>1</PlayOnStart>
+	</Sound>
 
 	<!-- Щелчек комбинированного крана -->
 	<Sound>
@@ -244,10 +266,10 @@
 	</Sound>
 
 
-	<!-- Серводвигатель ЭКГ -->
+	<!-- Серводвигатель ЭКГ авто набор -->
 	<Sound>
-		<Name>EKG_serv</Name>
-		<Path>serv.wav</Path>
+		<Name>EKG_serv_auto</Name>
+		<Path>ekg-8g_auto.wav</Path>
 		<InitVolume>30</InitVolume>
 		<MaxVolume>30</MaxVolume>
 		<InitPitch>1.0</InitPitch>
@@ -255,6 +277,17 @@
 		<PlayOnStart>0</PlayOnStart>
 	</Sound>
 
+	<!-- Серводвигатель ЭКГ ручной пуск (РП) +1 -->
+	<Sound>
+		<Name>EKG_serv_rp</Name>
+		<Path>ekg-8g_rp.wav</Path>
+		<InitVolume>30</InitVolume>
+		<MaxVolume>30</MaxVolume>
+		<InitPitch>1.0</InitPitch>
+		<Loop>0</Loop>
+		<PlayOnStart>0</PlayOnStart>
+	</Sound>
+	
 	<!-- Тяговый двигатель -->
 	<Sound>
 		<Name>TED</Name>
@@ -398,6 +431,11 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			5.000	100
+			11.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
@@ -408,6 +446,11 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			11.000	100
+			21.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
@@ -418,6 +461,11 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			21.000	100
+			31.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
@@ -428,6 +476,11 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			31.000	100
+			41.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
@@ -438,6 +491,11 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			41.000	100
+			51.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
@@ -448,6 +506,11 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			51.000	100
+			61.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
@@ -458,6 +521,11 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			61.000	100
+			71.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
@@ -468,6 +536,11 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			71.000	100
+			81.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
@@ -478,6 +551,11 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			81.000	100
+			91.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
@@ -488,16 +566,26 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			91.000	100
+			101.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
-		<Name>100-110</Name>
+		<Name>tap_100-110</Name>
 		<Path>100-110.wav</Path>
 		<InitVolume>0</InitVolume>
 		<MaxVolume>100</MaxVolume>
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			101.000	100
+			111.000	0
+		</VolumeCurve>
 	</Sound>
 	
 	<Sound>
@@ -508,6 +596,10 @@
 		<InitPitch>1.0</InitPitch>
 		<Loop>1</Loop>
 		<PlayOnStart>1</PlayOnStart>
+		<VolumeCurve>
+			0.000	0
+			111.000	100
+		</VolumeCurve>
 	</Sound>
 
 </Config>
